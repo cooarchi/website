@@ -1,2 +1,3 @@
-# website
-cooArchi website
+# cooArchi website
+
+just a repository for the cooArchi internal website
