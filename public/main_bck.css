@@ -1,0 +1,95 @@
+@font-face{
+    font-family: "Lexend";
+    src: url(../font/LexendDeca-Regular.ttf);
+}
+
+html{
+    height:100%
+
+}
+:root {
+    --canvas-background: #FFF6DA;
+    --main-bg-color: #FFF6DA;
+    --sec-bg-color: #84F2D6;
+    --main-fg-color: #FC6B3F ;
+    --sec-fg-color: #262525;
+
+}
+
+body
+{
+    font-family: 'Lexend';
+    color: var(--sec-fg-color);
+    overscroll-behavior: none;
+    overscroll-behavior-y: contain;
+    -webkit-box-sizing: border-box; /* Safari, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    width: 100%;
+
+    margin: 0 -3px 0 0;
+    overflow-x: hidden;
+    height: 100vh;
+    max-width: 100%;
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust:none;
+    -moz-text-size-adjust:none;
+    -ms-text-size-adjust:none;
+    -webkit-text-size-adjust:100%;
+    -moz-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+    user-drag: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    overflow: hidden;
+    background-color: var(--canvas-background);
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+a {
+    color: var(--main-fg-color);
+}
+
+@media (orientation: landscape) {
+    body svg{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (orientation: portrait) {
+    body svg{
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+.app .start {
+    margin-top: 15rem;
+    text-align: center;
+}
+.app .start h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem;
+}
+
+.app .start p.links {
+    margin-top: 2rem;
+}
+
+#login {
+    margin-top: 10rem;
+}
+.help-block {
+    color: var(--main-fg-color);
+}
+
+.jumbotron {
+    background-color: transparent;
+    padding: 2rem 0;
+}
