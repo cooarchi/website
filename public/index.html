@@ -28,5 +28,24 @@
             <img src="img/prototypefund.png" alt="Logo des Prototypefund" height="150" width="105" class="prototypefund"  /> 
         </p>
     </section>
+    <section id="imprint">
+        <p><a href="#contact">Imprint</a></p>
+        <p class="contact">
+            Noja Meier<br>
+            Storkower Str. 121<br>
+            10407 Berlin<br>
+            E-Mail: info [ a t ] cooarchi [ d o t ] net
+        </p>
+    </section>
+    <script>
+        const imprintButton = document.querySelector('#imprint a');
+        imprintButton.addEventListener('click', event => {
+            if (document.querySelector('.contact').style.display === 'block') {
+                document.querySelector('.contact').style.display = 'none';
+            } else {
+                document.querySelector('.contact').style.display = 'block';
+            }
+        });
+    </script>
 </body>
 </html>

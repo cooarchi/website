@@ -137,10 +137,12 @@ section#info h2 {
     font-size: 2rem;
     margin: 0 0 2rem;
 }
-section#info p a {
+section#info p a,
+section#imprint p a {
     color: var(--main-fg-color);
 }
-section#info p a:hover {
+section#info p a:hover,
+section#imprint p a:hover {
     color: var(--sec-fg-color);
 }
 section#funded {
@@ -156,4 +158,13 @@ section#funded .bmbf {
 }
 section#funded .prototypefund {
     margin-bottom: 3rem;
+}
+
+section#imprint {
+    margin: 1rem auto 2rem;
+    text-align: center;
+    width: 50rem;
+}
+section#imprint .contact {
+    display: none;
 }
