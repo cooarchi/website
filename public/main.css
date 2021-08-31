@@ -46,82 +46,6 @@ body {
     -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
-@media (orientation: landscape) {
-    body svg {
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media (orientation: portrait) {
-    body svg {
-        width: auto;
-        height: 100%;
-    }
-}
-
-.background-rect {
-    fill: var(--canvas-background);
-}
-
-/*   The main buttons in the corner */
-
-.main_button {
-    text-align: center;
-    padding: 10px;
-}
-
-.img_logo {
-    position: absolute;
-    fill: var(--sec-bg-color);
-}
-
-.logo_text {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-}
-
-.main_button:hover {
-}
-
-#logo {
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    font-size: 36px;
-    width: 150px;
-    height: 45px;
-}
-
-#account {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    font-size: 20px;
-    width: 70px;
-    height: 65px;
-}
-
-#help {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-    font-size: 36px;
-    width: 65px;
-    height: 65px;
-}
-
-#add {
-    position: absolute;
-    left: 20px;
-    bottom: 20px;
-    font-size: 75px;
-    width: 65px;
-    height: 65px;
-}
-
-
 section#info {
     margin: 12rem auto 2rem;
     text-align: center;
@@ -155,6 +79,7 @@ section#funded p {
 }
 section#funded .bmbf {
     margin-left: -3rem;
+    margin-right: 3rem;
 }
 section#funded .prototypefund {
     margin-bottom: 3rem;
