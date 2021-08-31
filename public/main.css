@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background-color: var(--canvas-background);
+    background-color: white;
     font-family: "Lexend";
     color: var(--sec-fg-color);
     overscroll-behavior: none;
@@ -82,7 +82,7 @@ section#funded .bmbf {
     margin-right: 3rem;
 }
 section#funded .prototypefund {
-    margin-bottom: 3rem;
+    margin-bottom: 2.3rem;
 }
 
 section#imprint {
